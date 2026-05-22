@@ -1,38 +1,57 @@
-CodeAlpha Fitness Tracker App
+🏋️ CodeAlpha Fitness Tracker App
 Task 03 — Android Internship Project
+📌 Internship Program
 
-Internship Program: CodeAlpha
-Project Type: Android Application
-Language: Kotlin
-Database: Room (SQLite)
-Architecture: MVVM
-IDE: Android Studio 2025.1.3
+CodeAlpha Android Development Internship
+
+📱 Project Type
+
+Android Application
+
+💻 Language
+
+Kotlin
+
+🗄️ Database
+
+Room (SQLite)
+
+🏗️ Architecture
+
+MVVM (Model - View - ViewModel)
+
+🧰 IDE
+
+Android Studio 2025.1.3
+
+📊 SDK Info
 Min SDK: 24
 Target SDK: 36
+📖 Project Description
 
-Project Description
+The Fitness Tracker App allows users to log daily workouts including exercise type, duration, calories, and notes.
 
-The Fitness Tracker App allows users to log daily workouts including exercise type, duration, calories, and notes. It shows a dashboard with daily and total workout statistics.
+It also provides a dashboard that shows daily and total workout statistics such as calories burned, workout duration, and total workouts.
 
-Features
-Core Features
+✨ Features
+🧠 Core Features
 Add workout entry
-Exercise type selection
-Duration input
-Calories tracking
-Workout history list
-Delete workout
-Dashboard Features
-Today’s calories
-Today’s duration
-Total workouts
+Select exercise type
+Enter duration (minutes)
+Track calories burned
+View workout history
+Delete workout entry
+📊 Dashboard Features
+Today’s calories burned
+Today’s workout duration
+Total workouts count
 Total calories burned
-Extra Features
-Auto calorie calculation
-Notes for workouts
+⚡ Extra Features
+Auto calorie calculation based on exercise type
+Add personal notes for each workout
 Category-based exercise system
 Live updates using LiveData
-Supported Exercises
+🏃 Supported Exercises
 Running
 Cycling
 Swimming
@@ -45,45 +64,41 @@ Dancing
 Football
 Basketball
 Tennis
-Project Structure
-
+📁 Project Structure
 CodeAlpha_FitnessTrackerApp/
 │
 ├── data/
-│ ├── Workout.kt
-│ ├── WorkoutDao.kt
-│ ├── WorkoutDatabase.kt
-│ └── WorkoutRepository.kt
+│   ├── Workout.kt
+│   ├── WorkoutDao.kt
+│   ├── WorkoutDatabase.kt
+│   └── WorkoutRepository.kt
 │
 ├── ui/
-│ ├── MainActivity.kt
-│ ├── AddWorkoutActivity.kt
-│ ├── SplashActivity.kt
-│ ├── WorkoutAdapter.kt
-│ └── WorkoutViewModel.kt
+│   ├── MainActivity.kt
+│   ├── AddWorkoutActivity.kt
+│   ├── SplashActivity.kt
+│   ├── WorkoutAdapter.kt
+│   └── WorkoutViewModel.kt
 │
 ├── utils/
-│ └── ExerciseTypes.kt
+│   └── ExerciseTypes.kt
 │
 ├── res/
-│ ├── layout/
-│ ├── drawable/
-│ ├── anim/
-│ └── values/
+│   ├── layout/
+│   ├── drawable/
+│   ├── anim/
+│   └── values/
 │
 └── AndroidManifest.xml
-
-App Flow
-
+🔁 App Flow
 Splash Screen
-↓
+      ↓
 Dashboard Screen
-↓
+      ↓
 Add Workout Screen
-↓
+      ↓
 Workout History Update
-
-Tech Stack
+🛠️ Tech Stack
 Kotlin
 XML Layouts
 Room Database
@@ -91,18 +106,34 @@ MVVM Architecture
 LiveData
 RecyclerView
 Coroutines
-Database Info
+Material Design Components
+💾 Database Info (Room)
 
 Room database stores workout data in internal device storage:
 
 /data/data/<package_name>/databases/workout_database
+✔ Features:
+Offline storage
+Persistent data
+Secure (private app storage)
+❌ Note:
 
-Setup Instructions
+Data is deleted when app is uninstalled.
 
-Step 1: Open project in Android Studio
-Step 2: Sync Gradle files
-Step 3: Run on emulator or device
+⚙️ Setup Instructions
+Step 1
 
-Project Summary
+Open project in Android Studio
 
-A complete fitness tracking application with dashboard analytics and persistent workout storage using Room database.
+Step 2
+
+Sync Gradle files:
+
+File → Sync Project with Gradle Files
+Step 3
+
+Run app on emulator or device
+
+📌 Project Summary
+
+A complete Fitness Tracker Android Application built with Kotlin, Room Database, and MVVM architecture. It provides real-time workout tracking with a modern dashboard and persistent local storage.
