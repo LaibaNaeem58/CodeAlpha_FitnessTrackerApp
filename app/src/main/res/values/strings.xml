@@ -12,6 +12,5 @@
     <string name="workouts_label">Workouts</string>
     <string name="all_time_calories">All Time Calories Burned</string>
     <string name="recent_activity">Recent Activity</string>
-
     <string name="add_workout">Add Workout</string>
 </resources>
