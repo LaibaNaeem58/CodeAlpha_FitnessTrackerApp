@@ -398,5 +398,4 @@
         app:elevation="6dp"
         app:icon="@android:drawable/ic_input_add"
         app:iconTint="#FFFFFF" />
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
