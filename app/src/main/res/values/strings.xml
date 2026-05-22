@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Fitness Tracker</string>
 
-    <string name="app_name">CodeAlpha_FitnessTrackerApp</string>
-
-
-    <string name="dashboard_title">Fitness Dashboard</string>
-    <string name="dashboard_subtitle">Stay healthy and track progress 💪</string>
-    <string name="default_day">Monday</string>
+    <string name="fitness_dashboard">Fitness Dashboard</string>
+    <string name="stay_healthy_and_track_progress">Stay healthy and track progress 💪</string>
+    <string name="monday">Monday</string>
     <string name="default_date">20 May 2026</string>
-    <string name="profile_avatar_emoji">🏃</string>
 
-    <string name="emoji_calories">🔥</string>
-    <string name="label_calories">Calories</string>
-    <string name="default_value_calories">0 kcal</string>
-    <string name="format_calories">%1$d kcal</string>
+    <string name="calories_label">Calories</string>
+    <string name="duration_label">Duration</string>
+    <string name="workouts_label">Workouts</string>
+    <string name="all_time_calories">All Time Calories Burned</string>
+    <string name="recent_activity">Recent Activity</string>
 
-    <string name="emoji_duration">⏱</string>
-    <string name="label_duration">Duration</string>
-    <string name="default_value_duration">0 min</string>
-    <string name="format_duration">%1$d min</string>
-
-    <string name="emoji_workouts">🏆</string>
-    <string name="label_workouts">Workouts</string>
-    <string name="default_value_workouts">0</string>
-    <string name="format_workouts">%1$d</string>
-
-    <string name="label_all_time_calories">All Time Calories Burned</string>
-
-    <string name="section_title_recent">Recent Activity</string>
-
-    <string name="emoji_empty_state">🏋️</string>
-    <string name="empty_state_title">No Workouts Recorded</string>
-    <string name="empty_state_subtitle">Tap \'Add Workout\' below to start tracking</string>
-
-    <string name="btn_add_workout">Add Workout</string>
+    <string name="add_workout">Add Workout</string>
 </resources>
