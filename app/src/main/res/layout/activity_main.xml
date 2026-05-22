@@ -31,7 +31,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fitness Dashboard"
+                    android:text="@string/fitness_dashboard"
                     android:textColor="#FFFFFF"
                     android:textSize="28sp"
                     android:textStyle="bold"
@@ -40,7 +40,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Stay healthy and track progress 💪"
+                    android:text="@string/stay_healthy_and_track_progress"
                     android:textColor="#D0E3FF"
                     android:textSize="14sp"
                     android:layout_marginTop="4dp"/>
@@ -75,7 +75,7 @@
                 android:id="@+id/tvDay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Monday"
+                android:text="@string/monday"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="12sp"/>
