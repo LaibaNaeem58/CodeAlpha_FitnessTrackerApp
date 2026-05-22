@@ -1,5 +1,6 @@
 package com.example.codealpha_fitnessapp.ui
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -7,7 +8,6 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.codealpha_fitnessapp.R
 import com.example.codealpha_fitnessapp.data.Workout
 import com.example.codealpha_fitnessapp.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     private val today get() = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
